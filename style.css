@@ -1,0 +1,247 @@
+@font-face {
+    font-family: kanit;
+    src: url(Fonts/Kanit-SemiBold.woff2);
+}
+@font-face {
+    font-family: rubik;
+    src: url(Fonts/RubikScribble-Regular.woff2);
+}
+nav {
+    padding: 15px;
+    text-align: center;
+    font-family: kanit;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+body{
+    background-color: rgba(246, 213, 229, 1);
+}
+#overskrift{
+    text-align: center;
+    font-family: rubik;
+    font-size: 800%;
+    margin-top: 10%;
+    color: black
+}
+footer{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.b2{
+    position: relative;
+    left: 650px;
+    top: -150px;
+}
+.b3{
+position: relative;
+left: 90px;
+top: -160px;
+}
+.b4{
+    position: relative;
+    left: 640px;
+    top: -150px;
+}
+.b6{
+    position: relative;
+    left: 220px;
+    top: -110px;
+}
+.b8{
+    position: relative;
+    left: 290px;
+    top: -130px;
+}
+.b9{
+    position: relative;
+    left: 600px;
+    top: -130px;
+}
+.b10{
+    position: relative;
+    left: -60px;
+    top: -150px;
+}
+.b14{
+position: relative;
+left: 640px;
+top: -150px;
+}
+.b12{
+position: relative;
+left:700px ;
+top: -160px;
+}
+h2{
+    text-align: center;
+    font-family: rubik;
+    font-size: 90px;
+}
+
+.centeredlist {
+    text-align: center; 
+    margin-bottom: 8%;
+    padding: 10px; 
+    max-width: 300px;   
+    line-height: 4; 
+    margin: 0 auto; 
+    font-family: kanit;
+}
+.blomster{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    margin-top: 60px;
+}
+.ommig{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+    margin-top: 70px;
+}
+.mig{
+    max-width: 40%;
+    margin-left: 410px;
+}
+
+#under{
+    text-align: center;
+    margin-top: -120px;
+    font-family: kanit;
+    font-style: italic;
+    font-size: 150%;
+}
+.tekst{
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 2px solid;
+    padding: 20px;
+    background-color: white;
+    font-size: 120%;
+    line-height: 2;
+}
+.bt1{
+    position: relative;
+    left: 1000px;
+    top: -300px;
+}
+.bt2{
+    position: relative;
+    left: 80px;
+    top: -350px;
+}
+.bt3{
+    position: relative;
+    left: 1000px;
+    top: -300px;
+}
+.bt4{
+    position: relative;
+    left: 100px;
+    top: -150px;
+}
+.bt6{
+    position: relative;
+    left: 1000px;
+    top: -30px;
+}
+.link{
+    text-align: center;
+    font-family: rubik;
+    font-size: 180%;
+    text-decoration: underline;
+    margin-top: 100px;
+    transition: transform 0.4s ease-in-out;
+    padding: 30px;
+}
+.link:hover{
+transform: translateY(-8px);
+}
+.velkommen{
+    text-align: center;
+    font-family: rubik;
+    font-size: 180%;
+    margin-top: -30px;
+}
+.formål{
+    text-align: left;
+    font-style: italic;
+}
+.styletile{
+    max-width: 100%;
+    grid-column: span 2;
+}
+.moodboard{
+    max-width: 100%;
+    grid-column: span 2;
+}
+.ms{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 60px;
+    grid-gap: 20px;
+}
+.reference{
+    font-weight: bold;
+}
+.tekst3{
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 2px solid;
+    padding: 20px;
+    background-color: white;
+    font-size: 120%;
+    line-height: 2;
+}
+.spil{
+    max-width: 50%;
+    margin-left: 350px;
+    margin-right: 80px;
+    border: 2px solid;
+    margin-top: 60px;
+}
+.baggrundspil{
+    max-width: 50%;
+    margin-left: 350px;
+    margin-right: 80px;
+    border: 2px solid;
+    margin-top: 110px;
+}
+.moodboard1{
+    max-width: 80%;
+    grid-column: span 2;
+    padding: 60px;
+}
+.moodboard2{
+    max-width: 80%;
+    grid-column: span 2;
+    padding: 60px;
+}
+.bruger{
+    list-style-type: disc;
+}
